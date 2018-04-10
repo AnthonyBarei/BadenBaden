@@ -1,0 +1,269 @@
+body {
+    padding: 0px 20px 0px 20px;
+}
+
+button {
+    background-color: #1fbed6;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+
+nav ul li {
+    display: inline-flex;
+    /*margin-right: 10px;*/
+    position: relative;
+    border-right: 1px solid #575757;
+    font-size: 12px;
+}
+
+nav ul li:last-child {
+    border-right: none;
+}
+
+nav ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: #575757;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid #1fbed6;
+}
+
+nav {
+    align-self: flex-end;
+    justify-content: flex-end;
+}
+
+header p {
+    align-self: flex-start;
+    justify-content: flex-start;
+    max-width: 150px;
+}
+
+.fish {
+    height: 350px;
+    background-image: url('images/fish.jpg');
+    background-size: 100%;
+    background-position: 50% 20%;
+    background-repeat: no-repeat;
+}
+
+.fish p {
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+main section {
+    padding-bottom: 20px;
+}
+
+main section:first-child {
+    text-align: center;
+    padding: 0px 100px 20px 100px;
+    background-color: #f2f2f2;
+}
+
+main section:first-child h1 {
+    color: #1fbed6;
+}
+
+main section:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    background-color: #f2f2f2;
+}
+
+main section:nth-child(2) article {
+    background-color: #1fbed6;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+    margin: 0 auto;
+}
+
+main section:nth-child(2) article h4 {
+    margin-bottom: 0;
+}
+
+main section:nth-child(2) article p {
+    margin-top: 5px;
+}
+
+main section:nth-child(2) article span .icon {
+    color: #1fbed6;
+    margin-top: 20px;
+}
+
+main section:nth-child(2) article span .icon-rotate{
+    color: #1fbed6;
+    margin-top: 20px;
+    -ms-transform: rotate(-40deg); /* IE 9 */
+    -webkit-transform: rotate(-40deg); /* Safari 3-8 */
+    transform: rotate(-40deg);
+}
+
+main section:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+main section:last-child aside {
+    width: 100%;
+}
+
+main section:last-child aside h2 {
+    margin-left: 25px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+main section:last-child section {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    background: none;
+}
+
+main section:last-child section article {
+    background: none;
+    color: black;
+    height: 170px;
+}
+
+main section:last-child section article aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+main section:last-child section article aside p:first-child {
+    text-align: left;
+    flex-grow: 2;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+main section:last-child section article aside p:last-child {
+    text-align: right;
+    flex-grow: 1;
+    width: 50px;
+    margin-bottom: 5px;
+}
+
+main section:last-child section article small {
+    float:left;
+}
+
+main section:last-child button {
+    margin-top: 60px;
+    padding: 10px 20px 10px 20px;
+    background: none;
+    border: 1px solid gray;
+}
+
+main section:last-child button:hover {
+    background-color: #1fbed6;
+    cursor: pointer;
+    color: white;
+}
+
+footer {
+    background-color: #1fbed6;
+    color: white;
+    padding: 10px 30px 10px 30px;
+}
+
+footer section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+footer section section {
+    flex-grow: 1;
+    margin-right: 20px;
+    width: 200px;
+}
+
+footer section section a {
+    color: white;
+}
+
+footer section section p img {
+    margin-top: 5px;
+}
+
+footer section section p span {
+    margin-top: 5px;
+}
+
+footer section section p span .icon {
+    height: 12px;
+    color: #1fbed6;
+    margin-left: 5px;
+}
+
+footer aside p {
+    text-align: center;
+    padding: 0px 250px 0px 250px;
+}
+
+.active {
+    color: #1fbed6;
+}
+
+.darkGrey {
+    color: #575757;
+}
+
+.lightGrey {
+    color: #787878;
+}
+
+i.fab {
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+
+}
+
+.dot {
+    height: 90px;
+    width: 90px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.mini-dot {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}

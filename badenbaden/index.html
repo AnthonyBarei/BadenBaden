@@ -10,18 +10,28 @@
     <title>Recettes</title>
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="webfontkit/stylesheet.css">
     <link rel="stylesheet" href="style.css">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,600,600i" rel="stylesheet"> -->
-    <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="fonts/Montserrat/fontawesome-all.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
+            <article>
+                <img src="./images/logo-badenbaden.png"  height="50px" alt="">
+                <p><span>Musée Océanographique</span> de Baden Baden</p>
+            </article>
 
-            <img src="./images/logo-badenbaden.png"  height="50px" alt="">
-            <p>Musée Océanographique de Baden Baden</p>
+    <input type="checkbox" class="menu-toggler" id="menu-toggler" aria-hidden="true">
+        <label for="menu-toggler" class="menu-toggler__label" aria-hidden="true">
+            <span class="menu-toggler__label__text">Menu</span>
+            <span class="menu-toggler__label__visual">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </label>
 
         <nav>
             <ul>
@@ -41,6 +51,25 @@
                 </li>
                 <li><a href="/badenbaden/contact.html">CONTACT</a></li>
             </ul>
+
+            <ul class="main-menu">
+                <li><a href="#">LE MUSEE</a></li>
+                <li><a href="#">ANIMATIONS</a></li>
+                <li><a href="#">ACTUALTES</a></li>
+                <li><a href="#">BOUTIQUE</a></li>
+                <li>
+                    <a href="#">PREPARER VOTRE VISITE</a>
+                    <ul>
+                        <li>ACCES</li>
+                        <li>HORAIRES</li>
+                        <li>TARIFS</li>
+                        <li>RESTAURANT</li>
+                        <li>BOUTIQUE</li>
+                    </ul>
+                </li>
+                <li><a href="/badenbaden/contact.html">CONTACT</a></li>
+             </ul>
+
         </nav>
     </header>
 

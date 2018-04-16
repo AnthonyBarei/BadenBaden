@@ -38,6 +38,7 @@ header article p {
     justify-content: flex-start;
     max-width: 150px;
     font-size: 12px;
+    margin-top: 30px;
 }
 
 header article p span {
@@ -494,6 +495,22 @@ i.fab {
     nav .main-menu a:focus,
     nav .main-menu a:active {
         background-color: #17a0b5;
+    }
+
+    nav .main-menu a:hover li,
+    nav .main-menu a:focus li,
+    nav .main-menu a:active li {
+        background-color: #17a0b5;
+    }
+
+    main section:last-child section {
+        display: block;
+        width: 100%;
+    }
+
+    main section:last-child section article {
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
 }

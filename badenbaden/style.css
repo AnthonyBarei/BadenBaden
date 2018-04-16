@@ -13,6 +13,14 @@ header {
     justify-content: space-between;
 }
 
+header input {
+    display: none;
+}
+
+header label {
+    display: none;
+}
+
 header article {
     display: flex;
     flex-direction: row;
@@ -41,6 +49,10 @@ nav {
     align-self: flex-end;
     justify-content: flex-end;
     font-size: 12px;
+}
+
+nav .main-menu {
+    display: none;
 }
 
 nav ul {

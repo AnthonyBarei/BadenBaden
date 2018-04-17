@@ -504,7 +504,6 @@ i.fab {
     }
 
     main section:last-child section {
-        display: block;
         width: 100%;
     }
 
